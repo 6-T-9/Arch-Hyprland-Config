@@ -1,4 +1,4 @@
-# kbyte75's Arch-Hyprland Dotfiles
+# oobsidian's Arch-Hyprland Dotfiles
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-blue?logo=archlinux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-2025-blue?style=flat&logo=hyprland&logoColor=white)
@@ -34,13 +34,13 @@
 <!-- ## One-Command Installation (recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kbyte75/Arch-Hyprland-Config/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oobsidian/Arch-Hyprland-Config/main/install.sh | bash
 ```
 
 ## Manual Installation
 
 ```bash
-git clone https://github.com/kbyte75/Arch-Hyprland-Config.git && cd Arch-Hyprland-Config && bash install.sh
+git clone https://github.com/oobsidian/Arch-Hyprland-Config.git && cd Arch-Hyprland-Config && bash install.sh
 ``` -->
 
 ## INSTALLATION
@@ -99,7 +99,7 @@ yay -S brave-bin --needed --noconfirm
 
 ```bash
 cp -a ~/.config ~/.config.bak
-git clone https://github.com/kbyte75/Arch-Hyprland-Config.git
+git clone https://github.com/oobsidian/Arch-Hyprland-Config.git
 cd Arch-Hyprland-Config
 cp -a * ~/.config
 ```
@@ -115,7 +115,7 @@ sudo chmod +x ~/.config/waybar/scripts/*.{sh,py} 2>/dev/null || true
 
 ```bash
 mkdir -p "$HOME/Pictures/Wallpapers"
-git clone https://github.com/kbyte75/wallpapers.git
+git clone https://github.com/oobsidian/wallpapers.git
 cd wallpapers
 mv * "$HOME/Pictures/Wallpapers"
 ```
@@ -232,11 +232,7 @@ sudo sed -i.bak 's/^timeout .*/timeout 0/' /boot/loader/loader.conf
 - Run with stable internet connection
 - Reboot required after install
 
-## Enjoy!
-
-Your new Hyprland setup is ready. Welcome to the rice side.
-
-Made with ❤️ by **[KBYTE75](https://github.com/kbyte75)**
+### **[Obsidian](https://github.com/oobsidian)**
 
 <!-- COC NAME BASE LAYOUT -->
 <!-- https://link.clashofclans.com/en?action=OpenLayout&id=TH14%3AHV%3AAAAAEQAAAAK__ZSkE1wWRMa-MaZ5pN8O -->

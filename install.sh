@@ -2,7 +2,7 @@
 # shellcheck disable=SC1091
 
 # ================================================================
-#  Hyprland Installer — KBYTE75 (FIXED)
+#  Hyprland Installer — Obsidian
 # ================================================================
 
 set -Eeuo pipefail
@@ -11,8 +11,8 @@ IFS=$'\n\t'
 # ==============================================================================
 # Global Configuration
 # ==============================================================================
-readonly REPO_URL="https://github.com/kbyte75/Arch-Hyprland-Config.git"
-readonly WALLPAPER_REPO_URL="https://github.com/kbyte75/wallpapers.git"
+readonly REPO_URL="https://github.com/oobsidian/Arch-Hyprland-Config.git"
+readonly WALLPAPER_REPO_URL="https://github.com/oobsidian/wallpapers.git"
 
 readonly CONFIG_DIR="$HOME/.config"
 readonly WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
