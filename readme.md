@@ -1,4 +1,4 @@
-# oobsidian's Arch-Hyprland Dotfiles
+# Obsidian's Arch-Hyprland Dotfiles
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-blue?logo=archlinux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-2025-blue?style=flat&logo=hyprland&logoColor=white)
@@ -30,18 +30,6 @@
 
 - Fresh Arch Linux installation (with internet)
 - Root privileges (sudo)
-
-<!-- ## One-Command Installation (recommended)
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/oobsidian/Arch-Hyprland-Config/main/install.sh | bash
-```
-
-## Manual Installation
-
-```bash
-git clone https://github.com/oobsidian/Arch-Hyprland-Config.git && cd Arch-Hyprland-Config && bash install.sh
-``` -->
 
 ## INSTALLATION
 
@@ -232,7 +220,16 @@ sudo sed -i.bak 's/^timeout .*/timeout 0/' /boot/loader/loader.conf
 - Run with stable internet connection
 - Reboot required after install
 
-### **[Obsidian](https://github.com/oobsidian)**
+```
+ ██████╗ ██████╗ ███████╗██╗██████╗ ██╗ █████╗ ███╗   ██╗
+██╔═══██╗██╔══██╗██╔════╝██║██╔══██╗██║██╔══██╗████╗  ██║
+██║   ██║██████╔╝███████╗██║██║  ██║██║███████║██╔██╗ ██║
+██║   ██║██╔══██╗╚════██║██║██║  ██║██║██╔══██║██║╚██╗██║
+╚██████╔╝██████╔╝███████║██║██████╔╝██║██║  ██║██║ ╚████║
+ ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+```
+
+<!-- ### **[Obsidian](https://github.com/oobsidian)** -->
 
 <!-- COC NAME BASE LAYOUT -->
 <!-- https://link.clashofclans.com/en?action=OpenLayout&id=TH14%3AHV%3AAAAAEQAAAAK__ZSkE1wWRMa-MaZ5pN8O -->
