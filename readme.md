@@ -111,12 +111,20 @@ mv * "$HOME/Pictures/Wallpapers"
 11. Modify nano & reduce loading time (Optional)
 
 ```bash
-cd Arch-Hyprland-Config
-sudo rsync -a nanorc /etc
+cd ~/.config
+sudo mv nanorc /etc
 sudo sed -i.bak 's/^timeout .*/timeout 0/' /boot/loader/loader.conf
 ```
 
-11. Set default programmes (Optional)
+12. Copy icon pack (Optional)
+
+```bash
+cd ~/.config
+sudo mv icons ~/
+mv icons .icons
+```
+
+13. Set default programmes (Optional)
 
 ```bash
 xdg-settings set default-web-browser brave-browser.desktop
@@ -232,12 +240,12 @@ xdg-mime default org.gnome.eog.desktop image/gif
 - Reboot required after install
 
 ```
-                     ██████╗ ██████╗ ███████╗██╗██████╗ ██╗ █████╗ ███╗   ██╗
-                    ██╔═══██╗██╔══██╗██╔════╝██║██╔══██╗██║██╔══██╗████╗  ██║
-                    ██║   ██║██████╔╝███████╗██║██║  ██║██║███████║██╔██╗ ██║
-                    ██║   ██║██╔══██╗╚════██║██║██║  ██║██║██╔══██║██║╚██╗██║
-                    ╚██████╔╝██████╔╝███████║██║██████╔╝██║██║  ██║██║ ╚████║
-                     ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                      ██╗  ██╗██╗  ██╗ █████╗ ██╗     ██╗██████╗
+                      ██║ ██╔╝██║  ██║██╔══██╗██║     ██║██╔══██╗
+                      █████╔╝ ███████║███████║██║     ██║██║  ██║
+                      ██╔═██╗ ██╔══██║██╔══██║██║     ██║██║  ██║
+                      ██║  ██╗██║  ██║██║  ██║███████╗██║██████╔╝
+                      ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝
 ```
 
 <!-- ### **[Obsidian](https://github.com/oobsidian)** -->

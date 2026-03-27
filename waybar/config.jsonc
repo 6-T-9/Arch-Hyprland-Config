@@ -39,7 +39,7 @@
   ],
   // ========================================  CUSTOM MODULES ========================================
   "custom/logo": {
-    "format": " ",
+    "format": "",
     "tooltip": false,
     "on-click": "~/.config/hypr/scripts/rofi.sh launcher",
     "on-scroll-up": "~/.config/waybar/scripts/brightness.sh up",
