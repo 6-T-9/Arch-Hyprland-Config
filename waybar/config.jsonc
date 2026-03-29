@@ -65,11 +65,11 @@
 
   "custom/weather": {
     "escape": true,
-    "interval": "once",
+    "interval": 5,
     "tooltip": false,
-    "format": " {text}C",
+    "format": " {text}°C",
     "return-type": "json",
-    "exec": "python3 ~/.config/waybar/scripts/weather.py",
+    "exec": "jq -c '{text: .text}' .cache/weather.json",
   },
 
   "custom/screenshot": {
